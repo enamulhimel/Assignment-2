@@ -135,3 +135,24 @@
         }
     }
 }
+.header:hover .marcelo{
+    transform: rotate(-60deg);
+    transform-origin: bottom right;
+}
+.header:hover .ball{
+    transform: translate(-200px,-300px);
+}
+.ball{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    transition: transform 1s ease-out 0.3s;
+}
+.marcelo{
+    transition: transform 0.5s ease-in;
+}
+
