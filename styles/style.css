@@ -102,3 +102,13 @@
     justify-content: space-evenly;
     padding-top: 20px;
 }
+.flag{
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 200px;
+    width: 300px;
+}
+.vs{
+    padding-left: 10px;
+    padding-right: 10px;
+}
