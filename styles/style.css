@@ -36,16 +36,18 @@
     margin: 10px;
     border: 2px solid lightgrey;
     border-radius: 10px;
+
 }
 .body{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-right: 100px;
     border-radius: 20px;
     padding: 50px;
+    width: 50%;
     
 }
 .container1 .option{
@@ -69,9 +71,9 @@
 
 }
 .container1{
-    background-color: black;
     border: 2px solid gray;
     text-decoration: none;
+    background-color: yellow;
 }
 .container2 .item h3{
     margin-left: 10px;
